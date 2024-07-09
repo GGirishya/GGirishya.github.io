@@ -4,7 +4,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
- 
+
 }
 
 
@@ -23,7 +23,7 @@ html, body {
   color: white;
   padding: 20px;
   box-sizing: border-box;
-  
+
 }
 
 
@@ -73,7 +73,7 @@ section {
   box-sizing: 50;
   background:rgba(0,0,0,.3);  
 }
-  
+
 .col-lg-3 p:hover{
   filter: drop-shadow(1px 1px 20px rgba(255, 98, 0, 1));
 }
@@ -93,7 +93,7 @@ section {
 .tech:hover{
    filter: drop-shadow(1px 1px 20px rgba(0, 0, 0, 1));
 }
- 
+
 
 footer {
   color: black;
@@ -121,8 +121,9 @@ footer {
 
 .carousel-item img {
   width: 100%;
-  height: auto;
+  
 }
+
 
 .carousel-caption {
   background-color:darkorange;
@@ -139,3 +140,6 @@ footer {
 .project{
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+
+
