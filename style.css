@@ -1,0 +1,141 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+ 
+}
+
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/sunset.png");
+  height: 100vh; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  
+}
+
+
+
+.hero-text .headshot {
+  width: clamp(100px, 20vw, 200px); 
+  height: clamp(100px, 20vw, 200px); 
+  max-width: 100%;
+  max-height: 100%; 
+}
+
+
+.headshot {
+  border-radius: 50%;
+  border: 7px solid rgba(0,0,0,.4);
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Bodoni Moda SC", serif;  
+}
+
+p {
+  font-size: 19px; 
+  font-family: "Bodoni Moda SC", serif;
+  margin: 0;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#mission {
+  padding-top: 60px;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(231,124,51,1) 0%, rgba(235,83,49,1) 17%, rgba(239,32,47,1) 41%, rgba(253,29,29,1) 61%, rgba(252,176,69,1) 100%);
+}
+#skills{
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+} 
+#contact{
+  box-sizing: 50;
+  background:rgba(0,0,0,.3);  
+}
+  
+.col-lg-3 p:hover{
+  filter: drop-shadow(1px 1px 20px rgba(255, 98, 0, 1));
+}
+
+.col-lg-3:hover{
+  filter: drop-shadow(1px 1px 20px rgba(255, 98, 0, 1));
+}
+#mission h2 {
+  font-family: "Bodoni Moda SC", serif;
+}
+
+#mission p {
+  font-family: "Bodoni Moda SC", serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.tech:hover{
+   filter: drop-shadow(1px 1px 20px rgba(0, 0, 0, 1));
+}
+ 
+
+footer {
+  color: black;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  background-color:rgba(255, 93, 0, 0.6);
+}
+
+#footer {
+  padding: 0;
+}
+
+.social-icon {
+  transition: color 0.3s;
+  font-size: 5rem; 
+}
+
+.social-icon:hover {
+  color: #ff7e5f;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  background-color:darkorange;
+  color: black;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 5px;
+}
+.carousel-caption h5{
+  font-weight: bolder;
+  font: white;
+}
+
+.project{
+  background-color: rgba(0, 0, 0, 0.5);
+}
