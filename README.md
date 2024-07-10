@@ -70,11 +70,14 @@ Once the development server is up and running, you can view the portfolio at `ht
 
 ## Screenshots
 
-![Homepage](homepage.png)
-*Description of the homepage.*
-
-![Projects Section](projects.png)
-*Description of the projects section.*
+<img src="Homepage.png" alt="Homepage" width="500">
+<h2>Homepage of my portfolio showcasing the hero section.</h2>
+<br>
+<br>
+<img src="Projects.png" alt="Projects Section" width="500">
+<h2>Projects section displaying some of my work.</h2>
+<br>
+<br>
 
 ## Contributing
 
