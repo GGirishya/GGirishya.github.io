@@ -70,10 +70,10 @@ Once the development server is up and running, you can view the portfolio at `ht
 
 ## Screenshots
 
-![Homepage](screenshots/homepage.png)
+![Homepage](homepage.png)
 *Description of the homepage.*
 
-![Projects Section](screenshots/projects.png)
+![Projects Section](projects.png)
 *Description of the projects section.*
 
 ## Contributing
